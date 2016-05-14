@@ -198,14 +198,14 @@ ChooseType<T1, T2> mymax(const T1& x, const T2& y) {
 	return x;
 }
 
-int main(void) {
-	cout << std::boolalpha;
-	auto x = mymax(5, 10);
-	cout << typeid(x).name() << " " << x << endl;
-
-	auto y = mymax(5, 10.0);
-	cout << typeid(y).name() << " " << y << endl;
-
-	auto z = mymax(5.0, 10);
-	cout << typeid(z).name() << " " << z << endl;
-}
+//int main(void) {
+//	cout << std::boolalpha;
+//	auto x = mymax(5, 10);
+//	cout << typeid(x).name() << " " << x << endl;
+//
+//	auto y = mymax(5, 10.0);
+//	cout << typeid(y).name() << " " << y << endl;
+//
+//	auto z = mymax(5.0, 10);
+//	cout << typeid(z).name() << " " << z << endl;
+//}
